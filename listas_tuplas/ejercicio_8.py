@@ -4,3 +4,4 @@ cadena = input("Ingresar una palabra: ")
 #     print("Es un palindromo")
 # else:
 #     print("No es un palindromo")
+if str(cadena) == cadena.
