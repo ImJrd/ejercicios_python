@@ -5,7 +5,7 @@ divisa = {
     'Yen': '¥'
 }
 r = input("Ingrese una divisa: ")
-print(divisa.get(str(r), "Divisa no encontrada"))
+print(divisa.get(r.title(), "Divisa no encontrada"))
 
 
 
